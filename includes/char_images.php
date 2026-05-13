@@ -22,13 +22,20 @@ function getCharacterImage(string $name, string $surname): string
         'trevor philips' => '/GTA_Projekt/characters/images/TrevorPhilips-GTAVee.webp',
         'franklin clinton' => '/GTA_Projekt/characters/images/FranklinClinton-GTAOe-TheContract.webp',
         'lester crest' => '/GTA_Projekt/characters/images/LesterCrest-GTAOe-2019Portrait.webp',
+        'lamar davis' => '/GTA_Projekt/characters/images/LamarDavis-GTAOe-2021Portrait.webp',
+        'ron jakowski'=> '/GTA_Projekt/characters/images/RonJakowski-GTAOe-2022Portrait.webp',
+        'amanda de santa' => '/GTA_Projekt/characters/images/Amanda-GTAV.webp',
 
         // Alias: nur Vorname
         'michael' => '/GTA_Projekt/characters/images/Michael-desanta.webp',
         'trevor' => 'https://upload.wikimedia.org/wikipedia/en/4/48/Trevor_Philips.png',
         'franklin' => 'https://upload.wikimedia.org/wikipedia/en/d/d6/Franklin_Clinton_-_GTA_V.png',
-        'lester' => '/GTA_Projekt/characters/images/LesterCrest-GTAOe-2019Portrait.webp'
-    ];
+        'lester' => '/GTA_Projekt/characters/images/LesterCrest-GTAOe-2019Portrait.webp', 
+        'lamar' => '/GTA_Projekt/characters/images/LamarDavis-GTAOe-2021Portrait.webp',
+        'chop' => '/GTA_Projekt/characters/images/Chop_from_GTA.webp',
+        'ron'=> '/GTA_Projekt/characters/images/RonJakowski-GTAOe-2022Portrait.webp',
+        'amanda' => '/GTA_Projekt/characters/images/Amanda-GTAV.webp',
+  ];
 
     if (isset($images[$key]))
         return $images[$key];

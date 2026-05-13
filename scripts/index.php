@@ -831,7 +831,7 @@ $total_locations = mysqli_fetch_row(mysqli_query($conn, "SELECT COUNT(*) FROM Lo
         </div>
         <div class="gal-item">
             <img src="https://www.igta5.com/images/official-screenshot-pc-dodging-the-law.jpg" alt="Action">
-            <div class="gal-caption">Action Szene</div>
+            <div class="gal-caption">Action Scene</div>
         </div>
     </div>
 </div>
@@ -847,7 +847,7 @@ $total_locations = mysqli_fetch_row(mysqli_query($conn, "SELECT COUNT(*) FROM Lo
             <span class="nav-card-icon">👤</span>
             <div class="nav-card-count"><?= $total_chars ?></div>
             <h3>Charaktere</h3>
-            <p>Michael, Trevor, Franklin, Lester — die Protagonisten von San Andreas</p>
+            <p>Michael, Trevor, Franklin, Lester — die Charaktere von San Andreas</p>
             <span class="nav-card-arrow">→</span>
         </a>
         <a href="/GTA_Projekt/weapons/index.php" class="nav-card">
