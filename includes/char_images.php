@@ -25,6 +25,10 @@ function getCharacterImage(string $name, string $surname): string
         'lamar davis' => '/GTA_Projekt/characters/images/LamarDavis-GTAOe-2021Portrait.webp',
         'ron jakowski'=> '/GTA_Projekt/characters/images/RonJakowski-GTAOe-2022Portrait.webp',
         'amanda de santa' => '/GTA_Projekt/characters/images/Amanda-GTAV.webp',
+        'wade herbert'=> '/GTA_Projekt/characters/images/WadeHerbert-GTAV-Portrait.webp',
+        'tracey de santa' => '/GTA_Projekt/characters/images/TraceyDeSanta-GTAVee.webp',
+        'jimmy de santa'=> '/GTA_Projekt/characters/images/JimmyDeSanta-GTA5.webp',
+        'floyd hebert'=> '/GTA_Projekt/characters/images/FloydHebert-GTAVee.webp',
 
         // Alias: nur Vorname
         'michael' => '/GTA_Projekt/characters/images/Michael-desanta.webp',
@@ -35,6 +39,10 @@ function getCharacterImage(string $name, string $surname): string
         'chop' => '/GTA_Projekt/characters/images/Chop_from_GTA.webp',
         'ron'=> '/GTA_Projekt/characters/images/RonJakowski-GTAOe-2022Portrait.webp',
         'amanda' => '/GTA_Projekt/characters/images/Amanda-GTAV.webp',
+        'herbert' => '/GTA_Projekt/characters/images/WadeHerbert-GTAV-Portrait.webp',
+        'tracey'=> '/GTA_Projekt/characters/images/TraceyDeSanta-GTAVee.webp',
+        'jimmy'=> '/GTA_Projekt/characters/images/JimmyDeSanta-GTA5.webp',
+        'floyd'=> '/GTA_Projekt/characters/images/FloydHebert-GTAVee.webp',
   ];
 
     if (isset($images[$key]))
