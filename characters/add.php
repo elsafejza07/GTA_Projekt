@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     <div class="form-group">
                         <label>Nachname</label>
-                        <input type="text" name="surname" placeholder="z.B. De Santa" required>
+                        <input type="text" name="surname" placeholder="z.B. De Santa">
                     </div>
                 </div>
 
